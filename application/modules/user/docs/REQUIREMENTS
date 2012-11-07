@@ -1,0 +1,9 @@
+- registration of users with validation of inserted data
+- signing in and out of registred users
+- default guest user
+- editing informations about existing users
+- blocking and activating of users
+- administartion of existing by supervisor
+- time expiration based bans
+- collectiong users in groups
+- role based permision system
