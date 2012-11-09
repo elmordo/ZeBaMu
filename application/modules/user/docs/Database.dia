@@ -68,7 +68,7 @@
         <dia:point val="18.25,4.55"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="18.2,4.5;34.97,14.4"/>
+        <dia:rectangle val="18.2,4.5;34.97,15.2"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="18.25,4.55"/>
@@ -77,7 +77,7 @@
         <dia:real val="16.669999999999998"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="9.7999999999999989"/>
+        <dia:real val="10.6"/>
       </dia:attribute>
       <dia:attribute name="name">
         <dia:string>#user_model_accounts#</dia:string>
@@ -248,6 +248,29 @@
           </dia:attribute>
           <dia:attribute name="comment">
             <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+        <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#active_role_id#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string>#null#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="comment">
+            <dia:string>#identifier of current active role#</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -1865,7 +1888,7 @@
         <dia:point val="71.45,37.1"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="71.4,37.05;83.165,41.55"/>
+        <dia:rectangle val="71.4,37.05;83.165,42.35"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="71.45,37.1"/>
@@ -1874,7 +1897,7 @@
         <dia:real val="11.665000000000001"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="4.4000000000000004"/>
+        <dia:real val="5.2000000000000011"/>
       </dia:attribute>
       <dia:attribute name="name">
         <dia:string>#user_model_roles#</dia:string>
@@ -2022,6 +2045,29 @@
           </dia:attribute>
           <dia:attribute name="comment">
             <dia:string>#Comment explaining purpose of this role#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+        <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#is_default#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#bool#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string>#0#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="comment">
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="visibility">
             <dia:enum val="0"/>
@@ -4186,8 +4232,8 @@
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="34.92,6.45"/>
-        <dia:point val="72.5194,6.45"/>
-        <dia:point val="72.5194,28.154"/>
+        <dia:point val="72.5195,6.45"/>
+        <dia:point val="72.5195,28.154"/>
         <dia:point val="110.119,28.154"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
