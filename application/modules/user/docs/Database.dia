@@ -1888,7 +1888,7 @@
         <dia:point val="71.45,37.1"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="71.4,37.05;83.165,42.95"/>
+        <dia:rectangle val="71.4,37.05;83.165,43.75"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="71.45,37.1"/>
@@ -1897,7 +1897,7 @@
         <dia:real val="11.665000000000001"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="5.8000000000000007"/>
+        <dia:real val="6.5999999999999996"/>
       </dia:attribute>
       <dia:attribute name="name">
         <dia:string>#user_model_roles#</dia:string>
@@ -2058,6 +2058,29 @@
         </dia:composite>
         <dia:composite type="umlattribute">
           <dia:attribute name="name">
+            <dia:string>#parent_id#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string>#null#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="comment">
+            <dia:string>#parent of this role#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+        <dia:composite type="umlattribute">
+          <dia:attribute name="name">
             <dia:string>#is_default#</dia:string>
           </dia:attribute>
           <dia:attribute name="type">
@@ -2137,13 +2160,13 @@
     </dia:object>
     <dia:object type="UML - Class" version="0" id="O11">
       <dia:attribute name="obj_pos">
-        <dia:point val="71.55,45.4"/>
+        <dia:point val="71.55,48.3"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="71.5,45.35;83.265,50.45"/>
+        <dia:rectangle val="71.5,48.25;83.265,53.35"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="71.55,45.4"/>
+        <dia:point val="71.55,48.3"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.665000000000001"/>
@@ -2636,14 +2659,14 @@
     </dia:object>
     <dia:object type="Standard - ZigZagLine" version="1" id="O14">
       <dia:attribute name="obj_pos">
-        <dia:point val="83.215,47.3"/>
+        <dia:point val="83.215,50.2"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="83.1032,41.6691;95.4618,47.6309"/>
+        <dia:rectangle val="83.1032,41.6691;95.4618,50.5309"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
-        <dia:point val="83.215,47.3"/>
-        <dia:point val="89.2825,47.3"/>
+        <dia:point val="83.215,50.2"/>
+        <dia:point val="89.2825,50.2"/>
         <dia:point val="89.2825,42"/>
         <dia:point val="95.35,42"/>
       </dia:attribute>
@@ -4495,6 +4518,50 @@
       <dia:connections>
         <dia:connection handle="0" to="O0" connection="9"/>
         <dia:connection handle="1" to="O19" connection="12"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - ZigZagLine" version="1" id="O27">
+      <dia:attribute name="obj_pos">
+        <dia:point val="83.115,39"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="83.0032,38.6691;84.215,41.7309"/>
+      </dia:attribute>
+      <dia:attribute name="orth_points">
+        <dia:point val="83.115,39"/>
+        <dia:point val="84.165,39"/>
+        <dia:point val="84.165,41.4"/>
+        <dia:point val="83.115,41.4"/>
+      </dia:attribute>
+      <dia:attribute name="orth_orient">
+        <dia:enum val="0"/>
+        <dia:enum val="1"/>
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="autorouting">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow">
+        <dia:enum val="31"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="29"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O10" connection="9"/>
+        <dia:connection handle="1" to="O10" connection="15"/>
       </dia:connections>
     </dia:object>
   </dia:layer>
