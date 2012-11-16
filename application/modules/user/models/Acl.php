@@ -23,5 +23,5 @@ class User_Model_Acl extends Zend_Db_Table_Abstract {
 	
 	protected $_rowClass = "User_Model_Row_Acl";
 	
-	protected $_rowsetClass = "User_Model_Rowset_Acls";
+	protected $_rowsetClass = "User_Model_Rowset_Acl";
 }
