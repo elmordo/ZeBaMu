@@ -18,4 +18,24 @@ class User_Model_AccountsHaveManyGroups extends Zend_Db_Table_Abstract {
 	protected $_rowClass = "User_Model_Row_AccountHaveManyGroup";
 	
 	protected $_rowsetClass = "User_Model_Rowset_AccountsHaveManyGroups";
+	
+	/**
+	 * returns associations containing given account
+	 * 
+	 * @param User_Model_Row_Account $account account to filter
+	 * @return User_Model_Rowset_AccountsHaveManyGroups
+	 */
+	public function findByAccount(User_Model_Row_Account $account) {
+		
+	}
+	
+	/**
+	 * returns associations containing given account
+	 * 
+	 * @param User_Model_Row_Group $group group to filter
+	 * @return User_Model_Rowset_AccountsHaveManyGroups
+	 */
+	public function findByGroup(User_Model_Row_Group $group) {
+		
+	}
 }

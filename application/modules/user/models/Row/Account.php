@@ -33,6 +33,15 @@ class User_Model_Row_Account extends Zend_Db_Table_Row_Abstract {
 	}
 	
 	/**
+	 * returns groups appended to account
+	 * 
+	 * @return User_Model_Rowset_Groups
+	 */
+	public function getGroups() {
+		
+	}
+	
+	/**
 	 * returns bans dealed by this account to another
 	 * 
 	 * @param int $filter filter type

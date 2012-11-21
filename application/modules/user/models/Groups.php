@@ -18,4 +18,25 @@ class User_Model_Groups extends Zend_Db_Table_Abstract {
 	protected $_rowClass = "User_Model_Row_Group";
 	
 	protected $_rowsetClass = "User_Model_Rowset_Groups";
+	
+	/**
+	 * creates new group
+	 * 
+	 * @param string $name name of group 
+	 * @param User_Model_Row_Account $owner owner account
+	 * @return User_Model_Row_Group
+	 */
+	public function createGroup($name, User_Model_Row_Account $owner) {
+		
+	}
+	
+	/**
+	 * finds group by its id
+	 * 
+	 * @param int $id id of group
+	 * @return User_Model_Row_Group
+	 */
+	public function findById($id) {
+		
+	}
 }

@@ -24,4 +24,14 @@ class User_Model_MessagesOutboxTargets extends Zend_Db_Table_Abstract {
 	protected $_rowClass = "User_Model_Row_MessageOutboxTarget";
 	
 	protected $_rowsetClass = "User_Model_Rowset_MessagesOutboxTargets";
+	
+	/**
+	 * finds targets for message
+	 * 
+	 * @param User_Model_Row_MessageOutbox $message message
+	 * @return User_Model_Rowset_MessagesOutboxTargets
+	 */
+	public function findByMessage(User_Model_Row_MessageOutbox $message) {
+		
+	}
 }
